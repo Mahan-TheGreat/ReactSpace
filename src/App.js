@@ -1,13 +1,12 @@
 import "./App.css";
-import Button from "./components/button/button";
+import Card from "./components/card/card";
 
 function App() {
-  const handleClick = (n) => {
-    console.log("Clicked");
-  };
   return (
     <div className="App">
-      <Button onClickFn={handleClick} style={{}} innerText="Button"></Button>
+      <div className="mb-2 container">
+        <Card></Card>
+      </div>
     </div>
   );
 }
