@@ -1,14 +1,14 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({ style, onClickFn, innerText }) => {
+const PrimaryButton = ({ innerText }) => {
   return (
-    <div>
-      <button className="btn btn-primary" style={style} onClick={onClickFn}>
+    <div className="button-container ">
+      <button type="button" className="btn btn-sm btn-outline-primary">
         {innerText}
       </button>
     </div>
   );
 };
 
-export default Button;
+export default PrimaryButton;
