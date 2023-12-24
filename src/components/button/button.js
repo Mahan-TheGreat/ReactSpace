@@ -3,11 +3,9 @@ import "./button.css";
 
 const PrimaryButton = ({ innerText }) => {
   return (
-    <div className="button-container ">
-      <button type="button" className="btn btn-sm btn-outline-primary">
-        {innerText}
-      </button>
-    </div>
+    <button type="button" className="button btn btn-sm btn-primary">
+      {innerText}
+    </button>
   );
 };
 
