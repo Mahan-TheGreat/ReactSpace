@@ -1,0 +1,31 @@
+#navigation{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+
+#nav_menu{
+    align-items: center;
+    display: flex;
+}
+#nav_menu li{
+    list-style: none;
+    font-size: 1em;
+    padding: 0.2em 1.5em;
+    color:#7E7E7E;
+}
+
+.active{
+    color: #6434ef !important;;
+    font-weight: bold;
+}
+
+.nav_btn{
+    background-color: #6434EF;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-size: 0.8em;
+    padding: 0.8em 1em !important;
+
+}

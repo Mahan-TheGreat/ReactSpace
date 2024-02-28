@@ -1,11 +1,13 @@
 import "./App.css";
-import Card from "./components/card/card";
+import Herosection from "./components/herosection/herosection";
+import Navigation from "./components/navigation/navigation";
 
 function App() {
   return (
     <div className="Container">
       <div className="mb-2 container">
-        <Card></Card>
+        <Navigation></Navigation>
+        <Herosection></Herosection>
       </div>
     </div>
   );

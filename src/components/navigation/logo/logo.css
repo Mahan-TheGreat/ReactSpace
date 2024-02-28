@@ -1,0 +1,8 @@
+#navigation_logo{
+    display: flex;
+    align-items: center;
+}
+
+#navigation_logo_img{
+    width: 50px;
+}

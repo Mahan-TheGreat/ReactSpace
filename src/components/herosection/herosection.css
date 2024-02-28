@@ -1,0 +1,61 @@
+#hero-section{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#hero-text-section{
+width: 50%;
+padding: 0.2em;
+margin-top: 3.5em;
+margin-left:1em;
+margin-right: 1em;
+}
+#hero-welcome-text{
+    color: #6434EF;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#hero-header{
+    font-size: 2.9em;
+    font-weight: bold;
+}
+
+#hero-main-text{
+    color: #686868;
+    padding-right:1em;
+   
+}
+
+#btn-secion{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-secondary-button{
+    padding: 0.5em 1em !important;
+    background-color: #EFEFEF !important;
+    color: black !important;
+    font-weight: 700;
+}
+
+.hero-button{
+    padding: 0.5em 1em !important;
+}
+
+#hero-image-section{
+ position: relative;
+}
+
+#hero-main-img{
+width: 100%;
+}
+
+#hero-svg{
+position: absolute;
+width: 40%;
+bottom: -3em;
+left: -5.5em;
+z-index: -1;
+}

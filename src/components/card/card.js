@@ -1,21 +1,14 @@
-import React from "react";
-import "./card.css";
 import PrimaryButton from "../button/button";
-import CardImage from "../../logo.svg";
+import "./card.css";
 
-function Card() {
+function Card(title, text) {
   return (
-    <>
-      <div className="def-card card">
-        <img class="card-img-top" src={CardImage} alt="" />
-        <h2 className="">Title </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
-        <PrimaryButton innerText="Button"></PrimaryButton>
-      </div>
-    </>
+    <div className="def-card card">
+      <img src="" alt="card" />
+      <h5>{title}</h5>
+      <p>{text}</p>
+      <PrimaryButton innerText="READ MORE"></PrimaryButton>
+    </div>
   );
 }
 
