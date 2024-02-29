@@ -1,0 +1,25 @@
+.card{
+    border: none;
+    margin:0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: last baseline;
+}
+
+.card img{
+    width: 30%;
+}
+
+.card h5{
+    font-weight: bold;
+}
+.card p{
+    font-weight: 500;
+    color:#686868c6;
+}
+.card button{
+    width: 35%;
+    padding: 1em 1em;
+    border-radius: 10px;
+}
