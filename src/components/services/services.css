@@ -1,5 +1,5 @@
 #service_section{
-    margin-top: 10em;
+    margin-top: 15em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,9 @@
 }
 
 #card-services{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .imageStyle1{

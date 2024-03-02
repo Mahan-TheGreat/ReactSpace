@@ -17,7 +17,7 @@ const Services = () => {
           imageSource={Services1}
           title="Content Writing"
           text={text1}
-          key="2"
+          key="1"
           imageClass="imageStyle1"
           titleClass="titleStyle1"
           textClass="textStyle1"
@@ -37,7 +37,7 @@ const Services = () => {
           imageSource={Services3}
           title="Video Editing"
           text={text1}
-          key="2"
+          key="3"
           imageClass="imageStyle1"
           titleClass="titleStyle1"
           textClass="textStyle1"
@@ -47,7 +47,7 @@ const Services = () => {
           imageSource={Services4}
           title="Web Apps"
           text={text1}
-          key="2"
+          key="4"
           imageClass="imageStyle1"
           titleClass="titleStyle1"
           textClass="textStyle1"
