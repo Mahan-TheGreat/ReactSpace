@@ -14,18 +14,30 @@ function Cardsection() {
         title="Digital Marketing"
         text={text1}
         key="1"
+        imageClass="imageStyle"
+        titleClass="titleStyle"
+        textClass="textStyle"
+        buttonClass="buttonStyle"
       ></Card>
       <Card
         imageSource={CardImage2}
         title="Content Writing"
         text={text1}
         key="2"
+        imageClass="imageStyle"
+        titleClass="titleStyle"
+        textClass="textStyle"
+        buttonClass="buttonStyle"
       ></Card>
       <Card
         imageSource={CardImage3}
         title="Software Development"
         text={text1}
         key="3"
+        imageClass="imageStyle"
+        titleClass="titleStyle"
+        textClass="textStyle"
+        buttonClass="buttonStyle"
       ></Card>
     </div>
   );

@@ -19,7 +19,7 @@ const HerosectionTwo = () => {
           consectetur adipiscing elit. Eget sodales ut ac diam, turpis rutrum
           sit pulvinar. Est, aliquam quis sed nam.
         </p>
-        <div id="btn-secion">
+        <div id="btn-seciton2">
           <PrimaryButton
             className="hero-button2"
             innerText="Get Started"

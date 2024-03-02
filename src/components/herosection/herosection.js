@@ -13,7 +13,7 @@ const Herosection = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget sodales
           ut ac diam, turpis rutrum sit pulvinar. Est, aliquam quis sed nam.{" "}
         </p>
-        <div id="btn-secion">
+        <div id="btn-section">
           <PrimaryButton
             className="hero-button"
             innerText="Get Started"

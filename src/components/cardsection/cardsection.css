@@ -4,3 +4,20 @@
     display: flex;
     justify-content: space-between;
 }
+
+.imageStyle{
+    width: 30%;
+}
+
+.titleStyle{
+    font-weight: bold;
+}
+.textStyle{
+    font-weight: 500;
+    color:#686868c6;
+}
+.buttonStyle{
+    width: 35%;
+    padding: 1em 1em;
+    border-radius: 10px;
+}
