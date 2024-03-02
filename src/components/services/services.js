@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div id="service_section">
       <h4>Creative Agency</h4>
-      <p>Services</p>
+      <p id="service_caption">Services</p>
       <div id="card-services">
         <Card
           imageSource={Services1}
@@ -25,7 +25,7 @@ const Services = () => {
         ></Card>
         <Card
           imageSource={Services2}
-          title="Content Writing"
+          title="Branding Design"
           text={text1}
           key="2"
           imageClass="imageStyle1"
@@ -35,7 +35,7 @@ const Services = () => {
         ></Card>
         <Card
           imageSource={Services3}
-          title="Content Writing"
+          title="Video Editing"
           text={text1}
           key="2"
           imageClass="imageStyle1"
@@ -45,7 +45,7 @@ const Services = () => {
         ></Card>
         <Card
           imageSource={Services4}
-          title="Content Writing"
+          title="Web Apps"
           text={text1}
           key="2"
           imageClass="imageStyle1"

@@ -1,31 +1,49 @@
 #service_section{
+    margin-top: 10em;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+#service_section h4{
+    color: hsl(255, 85%, 57%);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#service_caption{
+    font-size: 3em;
+    font-weight: 700;
+}
+
 #card-services{
     display: flex;
     justify-content: space-around;
 }
 
-
 .imageStyle1{
-    width: 100%;
+    width: 90%;
     aspect-ratio: 1.2/1.02;
+    border-radius: 15px;
 }
 
 .titleStyle1{
     margin-top:0.8em;
     font-weight: bold;
     font-size: 1em;
+    color: #6434EF;
 }
 
 .textStyle1{
-    font-weight: 500;
-    color:#686868c6;
+    font-weight: 400;
+    color:#686868;
+    text-align: left;
 }
 .buttonStyle1{
-    width: 35%;
-    padding: 1em 1em;
+    width: 45%;
+    padding: 0.8em 0.8em;
     border-radius: 10px;
+    color: #000;
+    background-color: #4000ff5f;
 }

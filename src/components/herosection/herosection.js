@@ -2,6 +2,7 @@ import "./herosection.css";
 import group21 from "../../assets/group_21.png";
 import imageHero from "../../assets/image_hero.png";
 import PrimaryButton from "../button/button";
+import frame from "../../assets/frame.png";
 
 const Herosection = () => {
   return (
@@ -22,6 +23,7 @@ const Herosection = () => {
             className="hero-secondary-button"
             innerText="Watch a Video"
             showIcon={true}
+            iconSource={frame}
           ></PrimaryButton>
         </div>
       </div>
