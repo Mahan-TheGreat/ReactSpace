@@ -1,3 +1,31 @@
+#service_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #card-services{
     display: flex;
+    justify-content: space-around;
+}
+
+
+.imageStyle1{
+    width: 100%;
+    aspect-ratio: 1.2/1.02;
+}
+
+.titleStyle1{
+    margin-top:0.8em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.textStyle1{
+    font-weight: 500;
+    color:#686868c6;
+}
+.buttonStyle1{
+    width: 35%;
+    padding: 1em 1em;
+    border-radius: 10px;
 }

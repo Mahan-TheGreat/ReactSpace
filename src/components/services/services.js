@@ -9,7 +9,7 @@ const Services = () => {
   let text1 =
     "Lorem ipsum dolor sit amet, consectetunam.  consectetur adipiscing elit. Eget sodales ut";
   return (
-    <div>
+    <div id="service_section">
       <h4>Creative Agency</h4>
       <p>Services</p>
       <div id="card-services">
@@ -18,24 +18,40 @@ const Services = () => {
           title="Content Writing"
           text={text1}
           key="2"
+          imageClass="imageStyle1"
+          titleClass="titleStyle1"
+          textClass="textStyle1"
+          buttonClass="buttonStyle1"
         ></Card>
         <Card
           imageSource={Services2}
           title="Content Writing"
           text={text1}
           key="2"
+          imageClass="imageStyle1"
+          titleClass="titleStyle1"
+          textClass="textStyle1"
+          buttonClass="buttonStyle1"
         ></Card>
         <Card
           imageSource={Services3}
           title="Content Writing"
           text={text1}
           key="2"
+          imageClass="imageStyle1"
+          titleClass="titleStyle1"
+          textClass="textStyle1"
+          buttonClass="buttonStyle1"
         ></Card>
         <Card
           imageSource={Services4}
           title="Content Writing"
           text={text1}
           key="2"
+          imageClass="imageStyle1"
+          titleClass="titleStyle1"
+          textClass="textStyle1"
+          buttonClass="buttonStyle1"
         ></Card>
       </div>
     </div>
