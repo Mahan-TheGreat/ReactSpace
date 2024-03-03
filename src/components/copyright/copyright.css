@@ -1,0 +1,17 @@
+#copyright_section{
+   margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#copyright_image{
+    width: 1.4em;
+    height:1.em;
+    margin-right: 0.5em;
+}
+
+#copyright_section p{
+    font-weight: 500;
+    margin-top: 0.7em;
+}

@@ -6,6 +6,8 @@ import HerosectionTwo from "./components/herosection2/herosection2";
 import Services from "./components/services/services";
 import BlogsSection from "./components/blogssection/blogssection";
 import HerosectionThree from "./components/herosection3/herosection3";
+import Copyright from "./components/copyright/copyright";
+import { Footer } from "./components/footer/footer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Services></Services>
         <HerosectionThree></HerosectionThree>
         <BlogsSection></BlogsSection>
+        <Footer></Footer>
+        <Copyright></Copyright>
       </div>
     </div>
   );

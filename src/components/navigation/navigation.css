@@ -10,9 +10,10 @@
 }
 #nav_menu li{
     list-style: none;
-    font-size: 1em;
+    font-size: 1.05em;
     padding: 0.2em 1.5em;
     color:#7E7E7E;
+    cursor: pointer;
 }
 
 .active{
